@@ -1,0 +1,165 @@
+/* ------------------------- Début Navigation -------------------------  */
+
+
+/* -------------------- Navebar Custome -------------------- */
+
+@font-face {
+    font-family: 'Customized-Charmonman';
+    src: url('../fonts/Charmonman-Bold.ttf');
+}
+
+header {
+    position: relative;
+}
+
+#image-logo {
+    width: 50px;
+    height: 30px;
+    padding-left: 5px;
+    background-image: url('../images/vecteezy_watercolor-fruits-and-vegetables/thanksgiving\ background.svg');
+    opacity: 1;
+}
+
+
+/* nav {
+    position: sticky;
+    top: 20px;
+} */
+
+.navbar-brand {
+    font-family: 'Customized-Charmonman';
+    font-weight: bolder;
+}
+
+.navbar-custom {
+    background-color: seagreen;
+}
+
+
+/* change the brand and text color */
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(255, 255, 255, .8);
+}
+
+
+/* change the link color */
+
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, .5);
+}
+
+
+/* change the color of active or hovered links */
+
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    font-size: larger;
+    font-weight: border;
+}
+
+.navbar-toggle,
+#colorBtnColor {
+    color: white;
+}
+
+.navbar-brand,
+.nav-item,
+#research {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 80px;
+}
+
+#about {
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+}
+
+#about,
+p {
+    justify-content: justify;
+}
+
+h1 {
+    background-color: rgb(46, 139, 87);
+    color: #ffffff;
+    margin-right: 60%;
+}
+
+h2,
+h3 {
+    background-color: rgb(46, 139, 87);
+    color: #ffffff;
+    margin-right: 1000px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+
+/* -------------------- Navebar Custome End -------------------- */
+
+
+/* #research {
+    padding-left: 200px;
+}
+
+#contact {
+    padding-left: 400px;
+}  */
+
+
+/* ------------------------- Fin Navigation -------------------------  */
+
+.card {
+    display: inline-block;
+}
+
+
+/* -------------------- Contact -------------------- */
+
+#contact {
+    padding: 5px;
+}
+
+.container {
+    border: 2px dashed rgb(46, 139, 87);
+    margin: auto 10% 25% 10%;
+}
+
+.heading-section {
+    background-color: rgb(46, 139, 87);
+    color: white;
+    font-weight: bolder;
+}
+
+.col-md {
+    width: 30%;
+    padding-right: 30px;
+}
+
+.info-wrap {
+    padding-bottom: 10px;
+}
+
+#header2 {
+    background-color: rgb(46, 139, 87);
+    color: #ffffff;
+}
+
+
+/* -------------------- Footer -------------------- */
+
+footer {
+    margin-bottom: 0;
+}
